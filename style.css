@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Raleway:wght@400;700&display=swap');
+:root{
+--Pale-Blue: hsl(243, 100%, 93%);
+--Grayish-Blue: hsl(229, 7%, 55%);
+--Dark-Blue: hsl(228, 56%, 26%);
+--Very-Dark-Blue: hsl(229, 57%, 11%);
+--Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+}
+
+body{
+    background-image: url(images/bg-desktop.png);
+    background-color: hsl(228, 56%, 26%);
+}
+.container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+}
+.left{
+     background-color: hsl(228, 56%, 26%);
+     padding: 60px 100px 30px 30px;
+     border-radius: 10px;
+     border-top-right-radius: 100px;
+     margin: 20px;
+}
+.left-content{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+     margin-top: -20px;
+}
+.icons{
+     display: flex;
+     align-items: center;
+     text-align: center;
+}
+button{
+     background-color: hsl(229, 57%, 11%);
+     border: none;
+     border-radius: 5px;
+     margin-top: 25px;
+     padding: 10px;
+     margin-left: 8px;
+     width: 50px;
+     height: 40px;
+}
+.right{
+     background-color: hsl(228, 56%, 26%);
+     padding: 20px 40px;
+     width: 35%;
+     color: #fff;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     border-radius: 10px;
+     margin-bottom: -30px;
+}
+.progress-bar{
+     width: 100%;
+     background: hsl(229, 57%, 11%);
+     padding: 1px;
+     border-radius: 1rem;
+     margin-bottom: 6px;
+     margin-top: -70px;
+}
+.progress-bar-color{
+     width: 75%;
+     background-image: linear-gradient(to right, hsl(6, 100%, 80%),hsl(335, 100%, 65%));
+     padding: 1px;
+     display: flex;
+     flex-direction: row;
+     border-radius: 1rem;
+     align-items: center;
+     justify-content: flex-end;
+
+}
+.ball{
+     background-color: hsl(243, 100%, 93%);
+     width: 1.2rem;
+     height: 1.2rem;
+     border-radius: 1rem;
+}
+.card p{
+     color: hsl(243, 100%, 93%);
+     font-size: 16px;
+}
+.card p strong{
+     font-size: 17px;
+     color: #fff;
+}
+.under{
+     display: flex;
+     justify-content: space-between;
+     color:hsl(243, 100%, 93%);
+     font-size: 16px;
+}
+.note{
+     position: relative;
+     top: -90px;
+     left: 70%;
+}
+.msg{
+     background-color: #fff;
+     color: #111;
+     width: 100px;
+     padding: 20px;
+     border-radius: 10px;
+     border-bottom-right-radius: 0;
+}
+.note .traingle{
+     width: 0.8rem;
+     height: 1rem;
+     background-color: #fff;
+     margin-left: 127px;
+     border-bottom-left-radius: 30px;
+     border-bottom-right-radius: 180px;
+}
+.msg text{
+     font-size: 1.2rem;
+     margin-right: 10px;
+}
+.msg strong{
+     font-size: 1.4rem;
+}
+
+
+
+
+
+.attribution {
+     font-size: 14px; 
+     text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
